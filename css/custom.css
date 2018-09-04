@@ -2,12 +2,12 @@
 body, html {
   height: 100%;
   margin: inherit;
+  margin-top: 2.40%;
 }
 
 header {
-  height: 13%;
+  height: 15%;
   text-align: center;
-  padding-top: 1.5%;
 }
 
 /* B SECTION */
@@ -45,6 +45,11 @@ blockquote p {
 
 
 /* F Section */
+
+.navbar-light  {
+  background-color: #182B3A;
+  color: white;
+}
 figcaption {
   bottom: 40px;
   right: 20px;
@@ -151,7 +156,8 @@ footer {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40%;
+  height: 70%;
+  margin-top: -5%;
 }
 
 /* J SECTION */
@@ -167,29 +173,52 @@ footer {
   padding-top: 10px;
 }
 /* M SECTION */
+#main {
+  background: url("../imgs/paris.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80%;
 
+}
 /* N SECTION */
-
-nav .navbar .navbar-expand-lg .fixed-top {
+.navbar-light .navbar-nav .nav-link {
+  color: #FDFFFC;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FDFFFC;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #FDFFFC;
+  cursor: pointer;
+}
+.navbar-custom {
   background: #182B3A;
+  height: auto;
+  font-size: 12px;
+  margin-bottom: none;
 }
 .nav-link, .navbar-brand {
   color: white;
   text-transform: uppercase;
-  font-size: 1.15em;
+  font-size: 1em;
 }
 .nav-link a {
   margin: 100% auto;
 }
+a:hover {
+  cursor: pointer;
+}
 .nav-link:hover {
-  color: white;
+  color: #FDFFFC;
   border-bottom: solid 2px white;
   padding-bottom: 5px;
   transition: all ease-in-out .3s;
   border-bottom-color: #D3461C;
 }
 .navbar-brand:hover {
-  color: #D3461C;
+  color: #FDFFFC;
 }
 /* S SECTION */
 .social-media a {
@@ -205,8 +234,14 @@ nav .navbar .navbar-expand-lg .fixed-top {
 }
 
 #services {
-  /* height: 70%; */
-  text-align: center;
+  height: 70%;
+  /*text-align: center;*/
+}
+
+.services-list ul li {
+  display: inline-block;
+  padding: 0 .5em;
+  color: tomato;
 }
 
 #serv-title {
@@ -219,7 +254,6 @@ nav .navbar .navbar-expand-lg .fixed-top {
   height: 120px;
   color: white;
 }
-
 
 
 /* MEDIA QUERIES */
