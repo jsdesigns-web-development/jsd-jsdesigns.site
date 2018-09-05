@@ -1,276 +1,72 @@
-/* MIAIN ELEMENTS */
-body, html {
+html, body {
   height: 100%;
   margin: inherit;
-  margin-top: 2.40%;
 }
 
 header {
-  height: 15%;
-  text-align: center;
-}
-
-/* B SECTION */
-blockquote {
-  border-left: 3px solid #D3461C;
-  margin-left: 15%;
-  padding-left: 0.25em;
-  font-style: italic;
-  font-size: 8px;
-  margin-top: 5%;
-}
-
-blockquote p {
-  font-size: 15px;
-}
-/* C Section */
-
-.col-md-7 p {
-  color: #D3461C;
-  font-size: 2em;
-  font-style: italic;
-}
-
-.card-group {
-  margin: 20% 0;
-}
-
-.card-title {
-  color: #D3461C;
-}
-
-/* D SECTION */
-
-
-
-
-/* F Section */
-
-.navbar-light  {
-  background-color: #182B3A;
-  color: white;
-}
-figcaption {
-  bottom: 40px;
-  right: 20px;
-  position: absolute;
-  background-color: rgba(0,0,0, 0.5);
-  color: white;
-  border-radius: 1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: none;
-  transition: all ease-in-out .5s;
-  z-index: 1100;
-}
-.figure-caption {
-  color: white;
-}
-figure img {
-  transition: all ease-in-out .5s;
-}
-figure img:hover{
-  opacity: 0.5;
-}
-
-figure img:hover~figcaption {
-  cursor: pointer;
-  display: block;
-}
-
-.fa-linkedin-in {
-  transition: all .2s ease-in-out;
-}
-.fa-twitter {
-  transition: all .2s ease-in-out;
-}
-.fa-facebook-f {
-  transition: all .2s ease-in-out;
-}
-.fa-youtube {
-  transition: all .2s ease-in-out;
-}
-
-.fa-linkedin-in:hover,
-.fa-youtube:hover,
-.fa-facebook-f:hover,
-.fa-twitter:hover{
-  transform: scale(1.3);
-}
-.fa-bars {
-  color: white;
-}
-
-#footer {
   background-image: url("../imgs/hero-image.jpg");
-  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.8);
-  height: 200px;
-  bottom: 0px;
-  color: white;
-  padding-top: 4em;
+  height: 85%;
 }
 
-#footer ul li {
-  display: inline-block;
+nav {
+  margin-top: 3%;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+  transition: all ease-in .3s;
+  margin-top: 3%;
 }
 
 
-footer {
-  height: 20%;
-  background-image: url("../imgs/hero-image.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.7);
-  background-attachment: fixed;
-  bottom: 0px;
-  padding-top: 10px;
-}
-.footer-social {
-  margin: 0 auto;
-  text-align: center;
+.bg-dark.scrolled {
+  background-color: rgba(0,0,0, 0.5) !important;
+  margin-top: 0;
+  transition: all ease-out .3s;
 }
 
-.footer-links a {
-  color: white;
-  font-size: 1em;
-  margin: .5em;
-  margin-top: 3em;
-  text-decoration: none;
-  transition: all .2s;
-  text-align: center;
-}
-.footer-links a:hover {
-  color: #D3461C;
-}
-.footer-links {
-  margin-top: 2em;
-}
-
-/* H SECTION */
-.hero-img {
-  background: url("../imgs/hero-image.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70%;
-  margin-top: -5%;
-}
-
-/* J SECTION */
-.jumbotron {
+#hero .jumbotron {
   background: none;
-  text-align: center;
-}
-
-/* L SECTION */
-#logo-text {
-  font-size: 1.15em;
-  font-weight: bold;
-  padding-top: 10px;
-}
-/* M SECTION */
-#main {
-  background: url("../imgs/paris.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80%;
-
-}
-/* N SECTION */
-.navbar-light .navbar-nav .nav-link {
-  color: #FDFFFC;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #FDFFFC;
-  cursor: pointer;
-}
-.nav-link:hover {
-  color: #FDFFFC;
-  cursor: pointer;
-}
-.navbar-custom {
-  background: #182B3A;
-  height: auto;
-  font-size: 12px;
-  margin-bottom: none;
-}
-.nav-link, .navbar-brand {
   color: white;
-  text-transform: uppercase;
-  font-size: 1em;
 }
-.nav-link a {
-  margin: 100% auto;
+
+.hero-title {
+  color: #D3461C;
 }
-a:hover {
-  cursor: pointer;
+
+.hero-sub {
+  color: white;
 }
-.nav-link:hover {
-  color: #FDFFFC;
-  border-bottom: solid 2px white;
-  padding-bottom: 5px;
+
+.hero-text {
+  text-shadow: 0px -0px 30px rgba(0,0,0, 0.75);
+  color: white;
+}
+
+#hero {
+  margin-top: 20%;
+}
+
+.btn-outline-primary {
+  color: white;
+  font-size: 15px;
   transition: all ease-in-out .3s;
-  border-bottom-color: #D3461C;
-}
-.navbar-brand:hover {
-  color: #FDFFFC;
-}
-/* S SECTION */
-.social-media a {
-  font-size: 1.5em;
-  margin: 0 .25em;
-  padding-top: 2em;
-}
-.social-media p {
-  font-size: 1.25em;
-  font-weight: bold;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 1.5em;
+  border: none;
 }
 
-#services {
-  height: 70%;
-  /*text-align: center;*/
+.btn-outline-primary:hover{
+  border: none !important;
+  background: #D3461C !important;
 }
 
-.services-list ul li {
-  display: inline-block;
-  padding: 0 .5em;
-  color: tomato;
+.fa-chevron-right {
+  transition: all .3s;
 }
 
-#serv-title {
-  background-image: url("../imgs/hero-image.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.7);
-  background-attachment: fixed;
-  height: 120px;
-  color: white;
-}
-
-
-/* MEDIA QUERIES */
-@media (max-width: 600px) {
-  header {
-    text-align: center;
-    height: 150px
-  } .social-media {
-    margin-top: .2em;
-    font-size: 1em;
-  } .social-media #social-text {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .social-media p {
-    font-size: 16px;
-  }
+.btn-outline-primary:hover .fa-chevron-right{
+  margin-left: 10px;
 }
