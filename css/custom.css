@@ -5,28 +5,29 @@ html, body {
 
 header {
   background-image: url("../imgs/hero-image.jpg");
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  box-shadow:inset 0 0 0 2000px rgba(24,43,58, 0.7);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 85%;
+  height: 70%;
 }
 
 nav {
-  margin-top: 3%;
+  height: 100px;
 }
 
 .bg-dark {
   background-color: transparent !important;
   transition: all ease-in .3s;
-  margin-top: 3%;
+  height: 100px
 }
 
 
 .bg-dark.scrolled {
-  background-color: rgba(0,0,0, 0.7) !important;
+  background-color: #182B3A !important;
   margin-top: 0;
   transition: all ease-out .3s;
+  height: 60px;
 }
 
 #hero .jumbotron {
@@ -35,17 +36,23 @@ nav {
 }
 
 .hero-title {
-  color: #D3461C;
+  font-family: 'arvo', sans-serif;
+  font-weight: bold;
+  color: rgba(255,255,252, 0.8);
+  text-align: center;
+  /*-webkit-text-stroke: 2px #FDFFFC;*/
+  /*-webkit-background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
 }
 
-.hero-sub {
-  color: white;
+.hero-tagline {
+  text-align: center;
+  font-family: "arvo", sans-serif;
+  /*color: rgba(255,255,252, 0.8);*/
+  color: #FFB045;
 }
 
-.hero-text {
-  text-shadow: 0px -0px 30px rgba(0,0,0, 0.75);
-  color: white;
-}
+
 
 #hero {
   margin-top: 20%;
@@ -61,12 +68,25 @@ nav {
 .btn-outline-primary:hover{
   border: none !important;
   background: #D3461C !important;
+  border-radius: 0;
 }
 
 .fa-chevron-right {
-  transition: all .3s;
+  transition: all ease-in-out .3s;
 }
 
-.btn-outline-primary:hover .fa-chevron-right{
-  margin-left: 10px;
+.btn-outline-primary:hover .fa-chevron-right {
+  margin-left: 5px;
+}
+
+
+#main {
+  height: 30%;
+  background-color: #FDFFFC;
+}
+
+.main-icons {
+  font-size: 5em;
+  margin-top: .5em;
+  text-align: center;
 }
