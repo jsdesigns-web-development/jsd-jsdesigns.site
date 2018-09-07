@@ -122,6 +122,10 @@ header {
 .card {
   border: none;
   height: 200px;
+  background: none;
+  width: 100%;
+  margin: inherit;
+  transition: all ease-in-out .3s;
 }
 
 .s1, .s2, .s4, .s5 {
@@ -147,4 +151,8 @@ header {
 }
 #services-section-2 {
   margin: 5% auto; 
+}
+.card:hover {
+  background: #D3461C;
+  color: white;
 }
