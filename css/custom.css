@@ -53,9 +53,6 @@ header {
 
 
 
-#hero {
-  margin-top: 20%;
-}
 
 .btn-outline-primary {
   color: white;
@@ -129,10 +126,10 @@ header {
 }
 
 .s1, .s2, .s4, .s5 {
-  border-right: 2px solid #D3461C;
+  border-right: 1px solid #D3461C;
 }
 .s1, .s2, .s3 {
-  border-bottom: 2px dashed #D3461C;
+  border-bottom: 1px solid #D3461C;
 }
 
 #services-section-1 {
@@ -150,9 +147,41 @@ header {
   font-size: 1.25em;
 }
 #services-section-2 {
-  margin: 5% auto; 
+  margin: 5% auto;
 }
 .card:hover {
   background: #D3461C;
   color: white;
+}
+
+.service-item {
+  padding: 1.5em 2em 1em 2em;
+  text-align: center;
+}
+.service-item h6 {
+  color: #D3461C;
+}
+
+.s1:hover, .s2:hover, .s3:hover,
+.s4:hover, .s5:hover, .s6:hover {
+  background: #D3461C;
+  color: #FDFFFC;
+  transition: all ease-in-out .3s;
+  border-color: #FDFFFC;
+  border-top-right-radius: 5em;
+  border-bottom-left-radius: 5em;
+}
+
+.service-item h5 {
+  transition: transform ease-in-out .3s;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.service-item:hover h5 {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.service-item:hover h6 {
+  color: #FDFFFC;
 }
