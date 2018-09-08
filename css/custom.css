@@ -77,8 +77,8 @@ header {
 
 
 #main {
-  /*height: 30%;*/
   background-color: #FDFFFC;
+  margin-bottom: 20px;
 }
 
 .main-icons {
@@ -94,7 +94,6 @@ header {
 #main h2 {
   text-align: center;
   font-size: 2em;
-  margin-bottom: 5px;
 }
 
 
@@ -125,12 +124,12 @@ header {
   transition: all ease-in-out .3s;
 }
 
-.s1, .s2, .s4, .s5 {
-  border-right: 1px solid #D3461C;
-}
-.s1, .s2, .s3 {
-  border-bottom: 1px solid #D3461C;
-}
+/*.s1, .s2, .s4, .s5 {*/
+/*  border-right: 1px dashed #D3461C;*/
+/*}*/
+/*.s1, .s2, .s3 {*/
+/*  border-bottom: 1px dashed #D3461C;*/
+/*}*/
 
 #services-section-1 {
   background: #f0a847;
@@ -138,7 +137,7 @@ header {
   padding: 2em 0;
 }
 
-#services-section-1 .display-3 {
+.display-3 {
   font-family: "arvo", sans-serif !important;
   font-weight: bold;
 }
@@ -148,6 +147,7 @@ header {
 }
 #services-section-2 {
   margin: 5% auto;
+  max-height: 70% !important;
 }
 .card:hover {
   background: #D3461C;
@@ -160,6 +160,18 @@ header {
 }
 .service-item h6 {
   color: #D3461C;
+}
+
+td .icons {
+  margin: .5em .75em;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+.service-icons {
+  /*margin-top: 6em;*/
+  vertical-align: middle;
 }
 
 .s1:hover, .s2:hover, .s3:hover,
@@ -184,4 +196,18 @@ header {
 
 .service-item:hover h6 {
   color: #FDFFFC;
+}
+
+#designs {
+  height: 50%;
+}
+.col {
+  width: 20%;
+  height: 100px;
+  background: red;
+}
+
+.temps {
+  text-align: center;
+  margin: 0 auto;
 }
