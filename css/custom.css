@@ -200,7 +200,17 @@ td .icons {
 
 #designs {
   height: 50%;
+  background: #182B3A;
 }
+
+#designs h2 {
+  color: #FDFFFC !important;
+}
+
+#designs p {
+  color: #f0a847;
+}
+
 .col {
   width: 20%;
   height: 100px;
