@@ -148,10 +148,6 @@ header {
   margin: 5% auto;
 
 }
-.card:hover {
-  background: #D3461C;
-  color: white;
-}
 
 .service-item {
   padding: 1.5em 2em 1em 2em;
@@ -175,8 +171,8 @@ td .icons {
 
 .s1:hover, .s2:hover, .s3:hover,
 .s4:hover, .s5:hover, .s6:hover {
-  background: #D3461C;
-  color: #FDFFFC;
+  /*background: #D3461C;*/
+  /*color: #FDFFFC;*/
   transition: all ease-in-out .3s;
   border-color: #FDFFFC;
   border-top-right-radius: 5em;
@@ -194,7 +190,7 @@ td .icons {
 }
 
 .service-item:hover h6 {
-  color: #FDFFFC;
+  /*color: #FDFFFC;*/
 }
 
 #designs {
@@ -223,7 +219,10 @@ td .icons {
 
 .temps {
   text-align: center;
-  margin: 0 auto;
+  margin: auto auto;
+  padding-top: 20px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .img-thumbnail {
@@ -273,4 +272,36 @@ figcaption {
 
 #designs  .display-3 {
   margin-top: -2%;
+}
+
+#pricing  {
+  margin-top: 5%;
+}
+
+hr {
+  width: 50px;
+  height: 5px;
+  color: #D3461C;
+  background: red;
+  border-radius: 5px;
+}
+
+.card {
+  height: 0  !important;
+}
+.card-body {
+  padding: 0;
+}
+.card-title {
+  font-size: 1.5em;
+  text-align: center;
+  background: lightblue;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.card-subtitle {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: 50px;
 }
