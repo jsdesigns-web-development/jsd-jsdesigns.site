@@ -105,7 +105,6 @@ header {
 }
 
 #services {
-  height: 100%;
   position: static;
 }
 
@@ -147,7 +146,7 @@ header {
 }
 #services-section-2 {
   margin: 5% auto;
-  max-height: 70% !important;
+
 }
 .card:hover {
   background: #D3461C;
@@ -199,8 +198,7 @@ td .icons {
 }
 
 #designs {
-  height: 50%;
-  background: #182B3A;
+
 }
 
 #designs h2 {
@@ -211,13 +209,68 @@ td .icons {
   color: #f0a847;
 }
 
-.col {
-  width: 20%;
-  height: 100px;
-  background: red;
+#designs .first-row {
+  background: url("../imgs/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px rgba(24,43,58, .9);
+  margin-bottom: 5%;
+  height: 200px !important;
 }
+
 
 .temps {
   text-align: center;
   margin: 0 auto;
+}
+
+.img-thumbnail {
+  background: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  transition: all ease-in-out .4s;
+  opacity: 1;
+  z-index: 2 !important;
+  margin: .5em 0;
+}
+
+
+
+figcaption {
+  position: absolute;
+  opacity: 0;
+  transition: all ease-in-out .4s;
+  color: #D3461C;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+
+.design-cols {
+  margin: auto 0;
+  position: relative;
+  
+}
+
+.design-cols:hover .img-thumbnail {
+  opacity: 0.5;
+  transform: scale(1.2);
+  margin-bottom: 15px;
+}
+  
+.design-cols:hover figcaption {
+  opacity: 1;
+  margin-top: 15px;
+}
+
+#designs .jumbotron {
+  height: inherit !important;
+  margin: auto 0;
+}
+
+#designs  .display-3 {
+  margin-top: -2%;
 }
