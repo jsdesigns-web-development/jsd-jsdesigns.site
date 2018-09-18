@@ -212,7 +212,6 @@ td .icons {
   background-repeat: no-repeat;
   background-attachment: fixed;
   box-shadow: inset 0 0 0 2000px rgba(24,43,58, .9);
-  margin-bottom: 5%;
   height: 200px !important;
 }
 
@@ -221,7 +220,6 @@ td .icons {
   text-align: center;
   margin: auto auto;
   padding-top: 20px;
-  margin-top: 2.5%;
   margin-bottom: 2.5%;
 }
 
@@ -249,14 +247,16 @@ figcaption {
 
 
 .design-cols {
-  margin: auto 0;
-  position: relative;
-  
+  margin: 0;
+  height: 250px;
+}
+.img-thumbnail {
+  height: 80%;
 }
 
 .design-cols:hover .img-thumbnail {
   opacity: 0.5;
-  transform: scale(1.2);
+  transform: scale(1.1);
   margin-bottom: 15px;
 }
   
@@ -280,7 +280,7 @@ figcaption {
 
 hr {
   width: 50px;
-  height: 5px;
+  height: 3px;
   color: #D3461C;
   background: red;
   border-radius: 5px;
@@ -291,17 +291,109 @@ hr {
 }
 .card-body {
   padding: 0;
-}
-.card-title {
-  font-size: 1.5em;
-  text-align: center;
-  background: lightblue;
-  font-weight: bold;
-  padding: 15px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 550px !important;
 }
 
-.card-subtitle {
+.card-title {
+  font-size: 15px;
   text-align: center;
-  padding: 20px 0 20px 0;
-  margin: 50px;
+  padding: 15px 0;
+  margin-bottom: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #FDFFFC;
 }
+
+.card-subtitle{
+  text-align: center;
+  padding: 40px 0 !important;
+  margin-top: 0;
+  font-size: 5em;
+  font-weight: bold;
+  color: #FDFFFC !important;
+}
+
+.price-card {
+  padding: 0 1em !important;
+}
+
+sup {
+  font-size: .5em !important;
+  font-weight: 400;
+  top: -1em;
+}
+
+.price-per-month {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+.price-card small {
+  color: #FDFFFC;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.price-card-main {
+  height: 250px;
+}
+
+.price-card p:nth-of-type(1) {
+  text-align: center;
+  color: #FDFFFC;
+}
+
+.price-services-1 {
+  margin-top: 1em;
+}
+
+.price-services-1 ul {
+  line-height: 2em;
+  list-style: none;
+}
+
+.price-services-1 li:before {
+  content: "\2713";
+  margin: .5em 1em .5em 0;
+  padding: .2em .45em;
+  font-weight: bold;
+  color: #182B3A;
+}
+
+.price-services-2 {
+  margin-top: 1em;
+}
+
+.price-services-2 ul {
+  line-height: 2em;
+  list-style: none;
+}
+
+.price-services-2 li:before {
+  content: "\2713";
+  margin: .5em 1em .5em 0;
+  padding: .2em .45em;
+  font-weight: bold;
+  color: #D3461C;
+}
+
+#service-detail a {
+  color: #D3461C;
+  font-weight: bold;
+  transition: all .2s;
+}
+
+#service-detail a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+
+#about  {
+  height: 500px;
+  margin-top: 5%;
+  
+}
+
