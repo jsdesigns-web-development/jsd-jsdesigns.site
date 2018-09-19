@@ -193,10 +193,6 @@ td .icons {
   /*color: #FDFFFC;*/
 }
 
-#designs {
-
-}
-
 #designs h2 {
   color: #FDFFFC !important;
 }
@@ -315,10 +311,27 @@ hr {
   color: #FDFFFC !important;
 }
 
-.price-card {
-  padding: 0 1em !important;
+
+
+.price-card-wrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
+.price-card-wrapper > .price-card {
+  padding: 0 1em !important;
+  min-width: 250px;
+  width: 400px !important;
+  height: 400px;
+  max-height: 550px;
+  margin: 0 .5em;
+  border: 1px solid red;
+  display: inline-block;
+  display: flex;
+}
 sup {
   font-size: .5em !important;
   font-weight: 400;
@@ -330,15 +343,6 @@ sup {
   font-weight: 400;
 }
 
-.price-card small {
-  color: #FDFFFC;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.price-card-main {
-  height: 250px;
-}
 
 .price-card p:nth-of-type(1) {
   text-align: center;
@@ -397,3 +401,6 @@ sup {
   
 }
 
+.card-deck .card {
+  min-width: 220px;
+}
