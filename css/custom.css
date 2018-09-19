@@ -282,71 +282,23 @@ hr {
   border-radius: 5px;
 }
 
-.card {
-  height: 0  !important;
-}
-.card-body {
-  padding: 0;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  min-height: 550px !important;
-}
-
-.card-title {
-  font-size: 15px;
-  text-align: center;
-  padding: 15px 0;
-  margin-bottom: 0;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  color: #FDFFFC;
-}
-
-.card-subtitle{
-  text-align: center;
-  padding: 40px 0 !important;
-  margin-top: 0;
-  font-size: 5em;
-  font-weight: bold;
-  color: #FDFFFC !important;
-}
-
-
-
-.price-card-wrapper {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.price-card-wrapper > .price-card {
-  padding: 0 1em !important;
-  min-width: 250px;
-  width: 400px !important;
-  height: 400px;
-  max-height: 550px;
-  margin: 0 .5em;
-  border: 1px solid red;
-  display: inline-block;
-  display: flex;
-}
-sup {
-  font-size: .5em !important;
-  font-weight: 400;
-  top: -1em;
-}
-
 .price-per-month {
   font-size: 16px !important;
   font-weight: 400;
 }
 
 
-.price-card p:nth-of-type(1) {
+.price-card-type {
+  padding: .5em 0;  
   text-align: center;
-  color: #FDFFFC;
+  min-height: 200px;
+  color: #182B3A;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.price-card-type p {
+  margin-bottom: 4em;  
 }
 
 .price-services-1 {
