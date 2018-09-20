@@ -28,7 +28,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="" height="50" width="40" title="JS Designs Logo" alt="JS Designs Logo"> <!--JSD-->
+        <img src="./imgs/graphics/jsd-logo.png" height="50" width="40" title="JS Designs Logo" alt="JS Designs Logo"> <!--JSD-->
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -267,17 +267,17 @@
              <h2 class="display-3">Pricing</h2>
                 <p>Simple and straightfoward. We currently offer Flat-Rate ready-to-go websites, as well as 100% Custom Development built from the ground-up to your exact specifications.</p>
             <br><br>
-              <p>For Detailed Description of the Prices, <span id="service-detail"><a href="">Click Here</a></span></p>
+              <p>For Detailed Description of the Prices and Additional Services, <span id="service-detail"><a href="">Click Here</a></span></p>
           </div>
       </div>
 
       <div class="col-md-3">
         <div class="card">
           <div class="card-body shadow">
-            <p>Flat-rate <br> <span>Starting from</span></p>
-            <h5 class="card-title">$299</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Hosting from $56 per Month</h6>
-            <p class="card-text">Services Include</p>
+            <div class="card-top-part">
+              <p class="plan-type">Flat-rate </p><br> <span style="color: #f0a847;">Starting from</span>
+              <h5 class="card-title display-3">$299</h5>
+            </div>
             <ul class="list-group list-group-flush">
                <li class="list-group-item">Responsive Design</li>
                <li class="list-group-item">Free Domain Name</li>
@@ -289,10 +289,10 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body shadow">
-            <p>Custom</p>
-            <h5 class="card-title">Request Quote</h5>
-            <h6 class="card-subtitle mb-2 text-muted">It all Depends on Your Needs</h6>
-            <p class="card-text">Services Include</p>
+            <div class="card-top-part">
+              <p class="plan-type">Custom</p> <br><br>
+              <h5 class="card-title display-3 rq">Request Quote</h5>
+            </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Built from Scratch</li>
               <li class="list-group-item">Free Design Consultation</li>
@@ -308,77 +308,88 @@
 
 <!-- ABOUT SECTION -->
 
+
+
 <!-- CONTACT SECTION -->
-<!-- <section id="contact">
+<section id="contact">
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h5>Let's Get In Touch</h5>
-      <hr>
-      <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-    </div>
+      <div class="main-text">
+        <h2 class="display-5">Let's Get In Touch</h2>
+        <hr>
+        <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+      </div>
+      </div>
   </div>
   <div class="row">
-    <div class="col-lg-6">
-      phone icon
-      phone number
+    <div class="col-lg-6 contact-via">
+        <span class="contact-icons"><i class="fas fa-phone"></i></span>
+        <p><a href="tel:925-579-1155">(925) 579-1155</a></p>
     </div>
-    <div class="col-lg-6">
-      email icon
-      email add
+    <div class="col-lg-6 contact-via">
+      <span class="contact-icons"><i class="fas fa-envelope"></i></span>
+      <p><a href="mailto:info@jsdesigns.site">info@jsdesigns.site</a></p>
     </div>
   </div>
 </div>
-</section> -->
+</section>
 
 
 <!-- FOOTER -->
-<!-- <footer class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md">
-          <img src="./imgs/jsd-logo.png" height="20px" width="15px" alt="">
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+<section id="footer">
+  <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img src="./imgs/graphics/jsd-logo.png" height="30px" width="25px" alt="">
+            <small class="d-block mb-3 text-muted">&copy; 2017 -
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+  </small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Site Index</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Services</a></li>
+              <li><a class="text-muted" href="#">Designs</a></li>
+              <li><a class="text-muted" href="#">Pricing</a></li>
+              <li><a class="text-muted" href="#">About</a></li>
+              <li><a class="text-muted" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Designs</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Yosemite</a></li>
+              <li><a class="text-muted" href="#">Manhattan</a></li>
+              <li><a class="text-muted" href="#">San Francisco</a></li>
+              <li><a class="text-muted" href="#">Paris</a></li>
+              <li><a class="text-muted" href="#">Berlin</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Social</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Facebook</a></li>
+              <li><a class="text-muted" href="#">LinkedIn</a></li>
+              <li><a class="text-muted" href="#">Instagram</a></li>
+              <li><a class="text-muted" href="#">Yelp</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Location</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-</footer> -->
+  </footer>
+</section>
+
 
 
 
