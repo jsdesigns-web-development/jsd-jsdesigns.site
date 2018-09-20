@@ -3,6 +3,30 @@ html, body {
   margin: inherit;
 }
 
+
+/* NAVBAR */
+.bg-dark {
+  background-color: rgba(24,43,58, 0.9) !important;
+  transition: all ease-in .3s !important;
+  font-size: 18px !important;
+}
+.bg-dark.scrolled {
+  background-color: rgba(255,176,69, 0.8) !important;
+  color: #182B3A !important;
+  margin-top: 0;
+  transition: all ease-out .3s !important;
+  font-size: 15px !important;
+}
+
+.nav-link {
+  color: rgb(255,176,69) !important;
+}
+
+.nav-link.scrolled {
+  color: rgb(24,43,58) !important;
+}
+
+/* HEADER */
 header {
   background-image: url("../imgs/hero-image.jpg");
   box-shadow:inset 0 0 0 2000px rgba(24,43,58, 0.7);
@@ -12,28 +36,10 @@ header {
   height: 70%;
 }
 
-
-.bg-dark {
-  background-color: transparent !important;
-  transition: all ease-in .3s !important;
-  height: 100px;
-  font-size: 18px !important;
-}
-
-
-.bg-dark.scrolled {
-  background-color: #182B3A !important;
-  margin-top: 0;
-  transition: all ease-out .3s !important;
-  height: 50px;
-  font-size: 15px !important;
-}
-
 #hero .jumbotron {
   background: none;
   color: white;
 }
-
 .hero-title {
   font-family: 'arvo', sans-serif;
   font-weight: bold;
@@ -43,39 +49,33 @@ header {
   /*-webkit-background-clip: text;*/
   /*-webkit-text-fill-color: transparent;*/
 }
-
 .hero-tagline {
   text-align: center;
   font-family: "arvo", sans-serif;
   /*color: rgba(255,255,252, 0.8);*/
   color: #FFB045;
 }
-
-
-
-
 .btn-outline-primary {
   color: white;
   font-size: 15px;
   transition: all ease-in-out .3s;
   border: none;
 }
-
 .btn-outline-primary:hover{
   border: none !important;
   background: #D3461C !important;
   border-radius: 0;
 }
-
 .fa-chevron-right {
   transition: all ease-in-out .3s;
 }
-
 .btn-outline-primary:hover .fa-chevron-right {
   margin-left: 5px;
 }
 
 
+
+/* MAIN */
 #main {
   background-color: #FDFFFC;
   margin-bottom: 20px;
@@ -104,6 +104,7 @@ header {
   font-size: 4vw !important;
 }
 
+/* SERVICES */
 #services {
   position: static;
 }
@@ -193,6 +194,7 @@ td .icons {
   /*color: #FDFFFC;*/
 }
 
+/* DESIGNS */
 #designs h2 {
   color: #FDFFFC !important;
 }
@@ -230,18 +232,6 @@ td .icons {
   margin: .5em 0;
 }
 
-
-
-figcaption {
-  position: absolute;
-  opacity: 0;
-  transition: all ease-in-out .4s;
-  color: #D3461C;
-  font-weight: bold;
-  text-transform: uppercase; 
-}
-
-
 .design-cols {
   margin: 0;
   height: 250px;
@@ -255,7 +245,7 @@ figcaption {
   transform: scale(1.1);
   margin-bottom: 15px;
 }
-  
+
 .design-cols:hover figcaption {
   opacity: 1;
   margin-top: 15px;
@@ -270,6 +260,8 @@ figcaption {
   margin-top: -2%;
 }
 
+
+/* PRICING */
 #pricing  {
   margin-top: 5%;
 }
@@ -282,77 +274,8 @@ hr {
   border-radius: 5px;
 }
 
-.price-per-month {
-  font-size: 16px !important;
-  font-weight: 400;
-}
+/* ABOUT */
 
+/* CONTACT US */
 
-.price-card-type {
-  padding: .5em 0;  
-  text-align: center;
-  min-height: 200px;
-  color: #182B3A;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.price-card-type p {
-  margin-bottom: 4em;  
-}
-
-.price-services-1 {
-  margin-top: 1em;
-}
-
-.price-services-1 ul {
-  line-height: 2em;
-  list-style: none;
-}
-
-.price-services-1 li:before {
-  content: "\2713";
-  margin: .5em 1em .5em 0;
-  padding: .2em .45em;
-  font-weight: bold;
-  color: #182B3A;
-}
-
-.price-services-2 {
-  margin-top: 1em;
-}
-
-.price-services-2 ul {
-  line-height: 2em;
-  list-style: none;
-}
-
-.price-services-2 li:before {
-  content: "\2713";
-  margin: .5em 1em .5em 0;
-  padding: .2em .45em;
-  font-weight: bold;
-  color: #D3461C;
-}
-
-#service-detail a {
-  color: #D3461C;
-  font-weight: bold;
-  transition: all .2s;
-}
-
-#service-detail a:hover {
-  transform: scale(1.1);
-  text-decoration: none;
-}
-
-
-#about  {
-  height: 500px;
-  margin-top: 5%;
-  
-}
-
-.card-deck .card {
-  min-width: 220px;
-}
+/* FOOTER */
