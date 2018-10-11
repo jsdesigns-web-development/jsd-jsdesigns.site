@@ -352,3 +352,8 @@ hr {
 #footer .text-muted {
   color: rgba(255,255,255, 0.5) !important;
 }
+
+#footer .text-muted:hover {
+  text-decoration: none;
+  color: rgba(255,255,255, 0.8) !important;
+}
