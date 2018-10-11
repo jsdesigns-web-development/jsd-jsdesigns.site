@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  margin: inherit;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 0;
+}
+
+#price-page-main {
+  margin-top: 5%;
+}
+
+.price-card {
+  min-height: 500px !important;
+  border-radius: 2em;
+}
+
+.card-two .card-title {
+  font-size: 300%;
+}
+.card-body {
+  border-radius: 1em;
+}
+
+
+#price-page-main .card-one {
+  min-height: 270px;
+  background: rgb(24,43,58);
+  color: #FDFFFC;
+  border-radius: 1em;
+}
+
+#price-page-main .card-two {
+  min-height: 270px;
+  background: #D3461C;
+  color: #FDFFFC;
+  border-radius: 1em;
+}
+
+.card-body {
+  min-height: 200px !important;
+}
+
+#price-page-main .card-subtitle {
+  color: rgba(255,255,255, 0.5) !important;
+}
+
+.price-name {
+  height:50px;
+}
+
+#price-page-main .card-title {
+  font-size: 200%;
+  height: 80px;
+  vertical-align: middle !important;
+}
+
+#price-page-main hr {
+  background: rgba(255,255,255,0.5);
+}
+
+#price-page-main li {
+  list-style: none;
+  line-height: 35px;
+  font-size: 110%;
+  text-align: center;
+  padding-right: 2em;
+}
+
+
+/* ADDITIONAL SERVICES */
+
+#more-services {
+  min-height: 500px !important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#more-services .card-title {
+  font-size: 40px !important;
+}
+
+#more-services .card-text {
+  font-size: 300%;
+  font-weight: bold;
+  color: #D3461C;
+}
+
+#more-services .card {
+  min-height: 240px !important;
+  border-radius: .4em;
+}
+
+.shadow {
+  box-shadow: 0 0.1rem 1rem rgba(0,0,0,.15)!important
+}
+
+@media (max-width: 740px) {
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  #price-page-main {
+    margin-top: 15%;
+  }
+}
