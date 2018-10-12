@@ -27,7 +27,7 @@ html, body {
 }
 
 #contact-page-main .container-fluid {
-  width: 90% !important;
+  width: 80% !important;
 }
 
 .con-text {
@@ -38,4 +38,42 @@ html, body {
 .con-text:hover {
   color: #D3461C !important;
   text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.col-md-6 .display-4 {
+  font-size: 250%;
+}
+
+
+#con-hr-sep {
+  display: hidden;
+}
+
+@media (max-width: 1024px) {
+  #contact-page-main .container-fluid  {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .left-col {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  
+  .right-col {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 425px) {
+  .col-lg-12 .jumbotron {
+    margin-top: 10%;
+  }
 }
