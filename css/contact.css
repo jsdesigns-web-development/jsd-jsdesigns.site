@@ -50,6 +50,10 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 250%;
 }
 
+input.form-control {
+  height: calc(2.25rem + 10px) !important;
+}
+
 
 #con-hr-sep {
   display: hidden;
