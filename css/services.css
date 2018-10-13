@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: inherit;
+}
+
+#services-page-main {
+  min-height: 900px;
+  margin-bottom: 5%;
+}
+
+#services-page-main .card {
+  min-height: 270px !important;
+  height: auto;
+  border-radius: .25em;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.second-row {
+  margin-top: 5%;
+}
+
+#services-page-main .shadow {
+  box-shadow: 0 0.1rem 2rem rgba(0,0,0,0.1)!important;
+}
+
+#services-page-main .card-title {
+  font-size: 300%;
+  color: #D3461C;
+}
+
+#services-page-main .card:hover {
+  box-shadow: 0 0.7rem 2rem rgba(0,0,0,0.15) !important;
+}
+
+.card-icon {
+  min-height: 70px !important;
+}
+
+.card-title-text {
+  min-height: 30px !important;
+}
+
+@media (max-width: 767px) {
+  #services-page-main .card {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  #services-page-main .jumbotron {
+    margin-top: 10%;
+  }
+}
+
+.jumbotron {
+  margin-bottom: -20px;
+  margin-top: 40px;
+}
+#services-page-main .card-subtitle {
+  color: rgb(24,43,58) !important;
+}
