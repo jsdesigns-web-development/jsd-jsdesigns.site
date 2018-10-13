@@ -70,10 +70,20 @@ input[type=number]::-webkit-outer-spin-button {
   .right-col {
     margin-top: 10%;
   }
+  .jumbotron {
+    margin-top: 15%;
+  }
+  
+  .display-2 {
+    font-size: 350% !important;
+  }
 }
 
 @media (max-width: 425px) {
   .col-lg-12 .jumbotron {
-    margin-top: 10%;
+    margin-top: 20%;
+  }
+  .display-2 {
+    font-size: 300% !important;
   }
 }

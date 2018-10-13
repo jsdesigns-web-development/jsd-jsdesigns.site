@@ -8,8 +8,12 @@ html, body {
   padding: 0;
 }
 
+.jumbotron .display-2 {
+  margin-bottom: 20px;
+}
+
 #price-page-main {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .price-card {

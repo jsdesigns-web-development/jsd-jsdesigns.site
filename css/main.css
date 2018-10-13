@@ -6,16 +6,21 @@ html, body {
 
 /* NAVBAR */
 .bg-dark {
-  background-color: rgba(24,43,58, 0.9) !important;
+  background-color: rgb(24,43,58) !important;
   transition: all ease-in .3s !important;
   font-size: 18px !important;
+  min-height: 100px !important;
+  margin-bottom: 20px !important;
+  transition: all .3s;
 }
 .bg-dark.scrolled {
-  background-color: rgba(255,176,69, 0.8) !important;
+  background-color: rgba(24,43,58, 0.9) !important;
   color: #182B3A !important;
   margin-top: 0;
   transition: all ease-out .3s !important;
   font-size: 15px !important;
+  min-height: 80px !important;
+  transition: ease-in-out all .3s;
 }
 
 .nav-link {
@@ -23,7 +28,7 @@ html, body {
 }
 
 .nav-link.scrolled {
-  color: rgb(24,43,58) !important;
+  color: rgb(255,176,69) !important;
 }
 
 /* HEADER */
