@@ -47,9 +47,17 @@ html, body {
     box-shadow: none;
     border: 1px solid rgba(0,0,0,0.1);
   }
+  #services-page-main .jumbotron .display-2 {
+    font-size: 400% !important;
+  }
   
   #services-page-main .jumbotron {
-    margin-top: 10%;
+    margin-top: 15%;
+  }
+}
+@media (max-width: 425px) {
+  #services-page-main .jumbotron .display-2 {
+    font-size: 300% !important;
   }
 }
 
