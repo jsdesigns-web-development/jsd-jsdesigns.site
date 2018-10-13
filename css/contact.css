@@ -52,8 +52,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 input.form-control {
   height: calc(2.25rem + 10px) !important;
+  margin-top: 5px;
 }
 
+input[type=submit] {
+  font-weight: bold !important;
+}
+.form-group {
+  font-weight: bold;
+  color: rgb(24,43,58);
+}
 
 #con-hr-sep {
   display: hidden;
