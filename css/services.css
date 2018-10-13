@@ -26,10 +26,15 @@ html, body {
 #services-page-main .card-title {
   font-size: 300%;
   color: #D3461C;
+  transition: all .3s;
 }
 
 #services-page-main .card:hover {
   box-shadow: 0 0.7rem 2rem rgba(0,0,0,0.15) !important;
+}
+
+#services-page-main .card:hover .card-title{
+  transform: scale(1.2);
 }
 
 .card-icon {
