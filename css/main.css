@@ -57,9 +57,47 @@ header {
 .hero-tagline {
   text-align: center;
   font-family: "arvo", sans-serif;
-  /*color: rgba(255,255,252, 0.8);*/
   color: #FFB045;
 }
+
+@media (max-width: 1440px) {
+  .hero-tagline {
+    font-size: 300% !important;
+  }
+  .hero-title {
+    font-size: 450% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-tagline {
+    font-size: 200% !important;
+  }
+  .hero-title {
+    font-size: 350% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-tagline {
+    font-size: 150% !important;
+  }
+  .hero-title {
+    font-size: 250% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-tagline {
+    font-size: 200% !important;
+  }
+  .hero-title {
+    font-size: 150% !important;
+  }
+}
+
+
+
 .btn-outline-primary {
   color: white;
   font-size: 15px;
@@ -106,6 +144,7 @@ header {
 /* SERVICES */
 #services {
   position: static;
+  
 }
 
 
