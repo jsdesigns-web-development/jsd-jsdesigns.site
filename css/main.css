@@ -298,6 +298,12 @@ td .icons {
   margin-top: -2%;
 }
 
+.design-card {
+  text-align: center;
+  padding-top: 5em;
+  color: #D3461C;
+}
+
 
 /* PRICING */
 #pricing  {
