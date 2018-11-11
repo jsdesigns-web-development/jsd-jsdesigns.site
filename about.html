@@ -17,7 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/anime.css">
     <!-- navbar scroll handler -->
     <script type="text/javascript" src="./js/custom.js"></script>
@@ -27,89 +27,60 @@
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="imgs/graphics/jsdlogo.png" height="50" width="40" title="JS Designs Logo" alt="JS Designs Logo"> <!--JSD-->
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#designs">Designs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          </div>
+          </div>
+    </nav>
+
+
+<main id="about-page-main">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="imgs/graphics/jsdlogo.png" height="50" width="40" title="JS Designs Logo" alt="JS Designs Logo"> <!--JSD-->
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#designs">Designs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="prices.html">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      </div>
-      </div>
-</nav>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="jumbotron">
+                    <h1 class="display-2">About Us</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, ullam molestiae eos harum hic esse quasi saepe officia, iure quo natus adipisci dolorem aliquam distinctio perferendis, perspiciatis cumque? Odit, omnis!</p>
+                </div>
+            </div>
+        </div>
 
-
-<main id="contact-page-main">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="jumbotron" style="text-align: center;">
-          <h2 class="display-2">Let's Get In Touch</h2>
-          <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Brian Jason</h3>
+                <small>Position</small> <span> | Task, task, task</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore repellendus eius natus minus voluptatibus ipsa eum atque modi voluptatum, sed nobis obcaecati, dolor sint alias libero. Quaerat, voluptate provident.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Zaki Sediqyar</h3>
+                <small>Position</small> <span> | Task, task, task</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos libero illo autem aliquam architecto aspernatur pariatur, exercitationem quis asperiores velit ipsum maxime in officiis quaerat, vero vitae ipsam quisquam dolor!</p>
+            </div>
         </div>
     </div>
-  </div>
-  <hr>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 left-col">
-        <div clas="jumbotron" style="text-align: center;">
-          <h2 class="display-4">Call or Email</h2>
-          <p>Feel free to give us a call or send us an email directly.</p>
-        </div>
-          <span><a href="tel:555-555-5555" class="con-icons"><i class="fas fa-phone"></i></a></span><span class="con-text"><a href="tel:555-555-5555" class="con-text">&nbsp;555-555-5555</a></span><br><br>
-          <span><a href="mailto:info@jsdesigns.site" class="con-icons"><i class="fas fa-envelope"></i></a></span><span class="con-text"><a href="mailto:info@jsdesigns.site" class="con-text">&nbsp;Info@JSDesigns.site</a></span>
-      </div>
-         <div class="col-md-6 right-col">
-        <div clas="jumbotron" style="text-align: center;">
-          <h2 class="display-4">Fill The Form</h2>
-          <p>Alternatively, you can also fill the below form and we will get back to you.</p>
-        </div>
-        
-        <form action="">
-          
-          <div class="form-group">
-              Full Name
-              <input type="text" class="form-control" placeholder="Elon Musk" required>
-          </div>
-          <div class="form-group">
-            Email
-            <input type="email" class="form-control" placeholder="Elon@Tesla.com" required>
-          </div>
-          <div class="form-group">
-            Phone Number
-            <input type="number" class="form-control" placeholder="555-555-5555" required>
-          </div>
-          <div class="form-group">
-            Your Message
-            <textarea class="form-control" id="" rows="5" placeholder="Write your message here ..." required></textarea>
-          </div>
-          <div class="form-group">
-            <input type="submit" value="Send" class="btn btn-warning">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
 </main>
 
 

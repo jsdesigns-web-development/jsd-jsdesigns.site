@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: inherit;
+}
+
+#about-page-main{
+  margin-top: 5%;
+  text-align: center;
+}
+
+#about-page-main h3 {
+  color: #D3461C;
+}
+
+#about-page-main small {
+  color: gray;
+}
+
+#about-page-main span {
+  color: #182B3A;
+}
+
+.col-md-6 p {
+  margin-top: 1em;
+  text-align: justify;
+  margin-bottom: 4em;
+}
