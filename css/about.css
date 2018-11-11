@@ -25,3 +25,45 @@ html, body {
   text-align: justify;
   margin-bottom: 4em;
 }
+
+.col-md-6 {
+  padding: 0 3em;
+}
+
+#clients {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#clients h2 {
+  color: gray;
+}
+
+#clients a {
+  color: #D3461C;
+}
+
+@media (max-width: 320px) {
+  h1.display-2 {
+    font-size: 50px !important;
+  }
+  #about-page-main {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 375px) {
+  h1.display-2 {
+    font-size: 65px;
+  }
+  #about-page-main {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 425px) {
+  h1.display-2 {
+    font-size: 70px;
+  }
+  #about-page-main {
+    margin-top: 20%;
+  }
+}
