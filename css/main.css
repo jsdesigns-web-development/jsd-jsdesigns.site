@@ -35,7 +35,7 @@ html, body {
 
 /* HEADER */
 header {
-  background-image: url("../imgs/goldengate.jpg");
+  background-image: url("../imgs/hero-image.jpg");
   box-shadow:inset 0 0 0 2000px rgba(24,43,58, 0.7);
   background-size: cover;
   background-position: center;
@@ -256,12 +256,12 @@ td .icons {
 }
 
 #designs .container-fluid {
-  background: url("../imgs/hero-image.jpg");
+  background: url("../imgs/middle-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  box-shadow: inset 0 0 0 2000px rgba(24,43,58, .9);
+  box-shadow: inset 0 0 0 2000px rgba(24,43,58, .97);
 }
 
 
@@ -406,7 +406,7 @@ hr {
 #footer {
   min-height: 400px;
   padding-top: 20px !important;
-  background: url("../imgs/hero-image.jpg");
+  background: url("../imgs/footer-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
