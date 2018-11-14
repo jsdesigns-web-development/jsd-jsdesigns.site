@@ -99,3 +99,9 @@ input[type=submit] {
     font-size: 300% !important;
   }
 }
+
+@media (max-width: 768px) {
+  #contact-page-main .display-2 {
+    font-size: 4.5rem;
+  }
+}
