@@ -164,6 +164,11 @@ header {
 }
 
 
+@media (max-width: 425px){
+  #services .display-3 {
+    font-size: 3.5rem;
+  }
+}
 .jumbotron {
   background: transparent;
 }
@@ -255,6 +260,12 @@ td .icons {
   color: #f0a847;
 }
 
+@media (max-width: 425px) {
+  #designs .display-3 {
+    font-size: 3.5rem;
+  }  
+}
+
 #designs .container-fluid {
   background: url("../imgs/middle-image.jpg");
   background-size: cover;
@@ -325,6 +336,13 @@ td .icons {
   margin-top: 5%;
 }
 
+@media (max-width: 425px) {
+  #pricing .display-3 {
+    font-size: 3.5rem;
+  }  
+}
+
+
 hr {
   width: 90%;
 }
@@ -367,6 +385,8 @@ hr {
 }
 /* ABOUT */
 
+
+
 /* CONTACT US */
 #contact {
   min-height: 500px !important;
@@ -375,6 +395,12 @@ hr {
   margin-bottom:
 }
 
+
+@media (max-width: 425px) {
+  #contact .display-4 {
+    margin-top: 25px;
+  }
+}
 
 #contact .col-lg-6 {
   text-align: center;
@@ -422,4 +448,15 @@ hr {
 #footer .text-muted:hover {
   text-decoration: none;
   color: rgba(255,255,255, 0.8) !important;
+}
+
+
+@media (max-width: 768px) {
+  #pricing .card-one {
+    margin-bottom: 10px;
+  }
+  
+  #pricing .card-two {
+    margin-top: 10px;
+  }
 }
