@@ -33,14 +33,14 @@ html, body {
   min-height: 270px;
   background: rgb(24,43,58);
   color: #FDFFFC;
-  border-radius: 1em;
+  border-radius: .5em;
 }
 
 #price-page-main .card-two {
   min-height: 270px;
   background: #D3461C;
   color: #FDFFFC;
-  border-radius: 1em;
+  border-radius: .5em;
 }
 
 .card-body {
@@ -111,5 +111,17 @@ html, body {
 @media (max-width: 800px) {
   #price-page-main {
     margin-top: 15%;
+  }
+}
+
+@media (max-width: 425px) {
+  #price-page-main {
+    margin-top: 25% !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #price-page-main {
+    margin-top: 10% !important;
   }
 }
