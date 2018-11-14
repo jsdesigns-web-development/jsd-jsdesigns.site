@@ -182,9 +182,7 @@ header {
   font-weight: bold;
 }
 
-#services-section-1 p {
-  font-size: 1.25em;
-}
+
 #services-section-2 {
   margin: 5% auto;
 
@@ -243,15 +241,15 @@ td .icons {
   color: #f0a847;
 }
 
-#designs .first-row {
+#designs .container-fluid {
   background: url("../imgs/hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   box-shadow: inset 0 0 0 2000px rgba(24,43,58, .9);
-  height: 200px !important;
 }
+
 
 
 .temps {
@@ -281,9 +279,10 @@ td .icons {
 }
 
 .design-cols:hover .img-thumbnail {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   transform: scale(1.1);
   margin-bottom: 15px;
+  box-shadow: 0 .2rem .5rem rgba(255,255,255,.2)!important
 }
 
 .design-cols:hover figcaption {
