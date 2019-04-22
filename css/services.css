@@ -42,6 +42,14 @@ html, body {
   min-height: 30px !important;
 }
 
+
+.service-card-link {
+  color: rgb(24,43,58);
+}
+.service-card-link:hover {
+  color: rgb(24,43,58);
+  text-decoration: none;
+}
 @media (max-width: 767px) {
   #services-page-main .card {
     margin-top: 10px !important;
@@ -52,7 +60,7 @@ html, body {
   #services-page-main .jumbotron .display-2 {
     font-size: 400% !important;
   }
-  
+
   #services-page-main .jumbotron {
     margin-top: 15%;
   }

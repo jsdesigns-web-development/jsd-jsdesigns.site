@@ -263,7 +263,7 @@ td .icons {
 @media (max-width: 425px) {
   #designs .display-3 {
     font-size: 3.5rem;
-  }  
+  }
 }
 
 #designs .container-fluid {
@@ -330,6 +330,15 @@ td .icons {
   color: #D3461C;
 }
 
+.design-card a {
+  color: #D3461C;
+}
+
+.design-card a:hover {
+  color: #D3461C;
+  text-decoration: none;
+}
+
 
 /* PRICING */
 #pricing  {
@@ -339,7 +348,7 @@ td .icons {
 @media (max-width: 425px) {
   #pricing .display-3 {
     font-size: 3.5rem;
-  }  
+  }
 }
 
 
@@ -455,7 +464,7 @@ hr {
   #pricing .card-one {
     margin-bottom: 10px;
   }
-  
+
   #pricing .card-two {
     margin-top: 10px;
   }
