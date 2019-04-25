@@ -46,7 +46,7 @@ header {
 
 #hero .jumbotron {
   background: none;
-  color: white;
+  color: rgba(255,255,255,0.8);
 }
 
 .hero-title-container {
@@ -115,7 +115,7 @@ header {
 
 
 .btn-outline-primary {
-  color: white;
+  color: rgba(255,255,255,0.8);
   font-size: 15px;
   transition: all ease-in-out .3s;
   border: none;
@@ -378,7 +378,7 @@ hr {
 #pricing .card-one {
   min-height: 270px;
   background: rgb(24,43,58);
-  color: #FDFFFC;
+  color: rgba(255,255,255,0.8);
 }
 
 .card-one .card-title {
@@ -387,7 +387,7 @@ hr {
 #pricing .card-two {
   min-height: 270px;
   background: #D3461C;
-  color: #FDFFFC;
+  color: rgba(255,255,255,0.8);
 }
 
 .card-body {
@@ -465,7 +465,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow:inset 0 0 0 2000px rgba(24,43,58, 0.8);
-  color: #FDFFFC;
+  color: rgba(255,255,255,0.8);
   background-color: rgba(24,43,58);
 }
 
