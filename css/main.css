@@ -273,9 +273,12 @@ td .icons {
   background-repeat: no-repeat;
   background-attachment: fixed;
   box-shadow: inset 0 0 0 2000px rgba(24,43,58, .97);
+  padding-bottom: 2rem;
 }
 
-
+.design-jumbotron {
+  padding: 4rem 2rem 1rem 2rem !important;
+}
 
 .temps {
   text-align: center;
@@ -298,10 +301,26 @@ td .icons {
 .design-cols {
   margin: 0;
   height: 250px;
+  position: relative;
 }
+.design-cols-text {
+    position: absolute;
+    top: 40;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgba(255,255,255,0.8);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .img-thumbnail {
   height: 80%;
 }
+
+
 
 .design-cols:hover .img-thumbnail {
   /*opacity: 0.5;*/
