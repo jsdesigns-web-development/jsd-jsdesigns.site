@@ -81,3 +81,10 @@ html, body {
   text-decoration: none;
 
 }
+
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    margin: 1em 0;
+  }
+}
