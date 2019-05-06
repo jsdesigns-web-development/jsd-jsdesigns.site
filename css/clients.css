@@ -1,37 +1,83 @@
+:root {
+    --yellow: #FFB045;
+    --red: #D3461C;
+    --blue:#212529;
+    --white: #F8F8F8;
+}
+
 html, body {
     height: 100%;
     margin: inherit;
+    background: var(--white);
   }
-  
-#clients-page-main {
-    min-height: 650px;
-    height: 700px;
-    background: url("../imgs/clients.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 2000px rgba(24,43,58, 0.8);
+
+#clientsmain {
+  margin-top: 100px !important;
+  margin-bottom: 25px !important;
+  text-align: center;
 }
 
-#clients-page-main h2 {
-    color: white;
-    text-align: center;
-    margin-top: 2em;
+#clientsmain h2 {
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-#clients-page-main p {
-    color: white;
-    text-align: center;
-    font-size: 1.25em;
+#clientsmain p {
+  color: gray;
 }
 
-@media (max-width: 320px) {
-    h2.display-2 {
-        font-size: 300% !important;
-    }
+#client-cards {
+  margin-bottom: 50px !important;
 }
-@media (max-width: 375px) {
-    h2.display-2 {
-        font-size: 300%;
-    }
+.client-cards {
+  width: 90% !important;
+  min-height: 150px !important;
+}
+
+.card {
+  height: 100% !important;
+}
+
+.card-img {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.card-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card-text {
+  color: rgba(0,0,0,0.6) !important;
+}
+
+.card-footer {
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.card-footer .client-name {
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.card-footer .client-position {
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.card-footer .client-company {
+  text-transform: uppercase;
+  color: var(--red);
+  font-style: normal;
+}
+
+.card-footer .client-company:hover {
+  text-decoration: none;
+
 }
