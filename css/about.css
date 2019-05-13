@@ -1,69 +1,100 @@
+:root {
+    --yellow: #FFB045;
+    --red: #D3461C;
+    --blue:#212529;
+    --white: #F8F8F8;
+}
+
 html, body {
-  height: 100%;
-  margin: inherit;
+    height: 100%;
+    margin: inherit;
+    background: var(--white);
+  }
+
+
+#aboutus-main {
+  min-height: 300px !important;
+  height: 450px;
+  width: 100%;
+  background: var(--blue);
+  color: rgba(255,255,255,0.95);
 }
 
-#about-page-main{
-  margin-top: 5%;
+#aboutus-main .container {
+  padding-top: 8%;
+}
+#aboutus-main .container .col-md-4 {
+  padding-top: 4%;
+}
+
+#aboutus-main h1 {
+  font-weight: bold;
+}
+
+#aboutus-main h6 {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Quicksand';
+}
+
+#team {
+  height: auto;
+  margin: 2.5% auto;
+}
+#team .container {
+  width: 100% !important;
+}
+
+#team .card {
+  height: auto;
+  padding: 5%;
+}
+#team h3 {
   text-align: center;
-}
-
-#about-page-main h3 {
-  color: #D3461C;
-}
-
-#about-page-main small {
+  margin: 1% auto 5% auto;
+  font-weight: bold;
   color: gray;
 }
 
-#about-page-main span {
-  color: #182B3A;
+.teamimg {
+  text-align: center;
+  margin-bottom: 1em !important;
 }
 
-.col-md-6 p {
-  margin-top: 1em;
-  text-align: justify;
-  margin-bottom: 4em;
+.teamimg img {
+  border-radius: 100%;
+  margin-bottom: 1em;
 }
 
-.col-md-6 {
-  padding: 0 3em;
+.teamtext {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
-#clients {
-  margin-top: 2%;
-  margin-bottom: 4%;
+.teamtext h5 {
+  color: var(--red);
 }
-
-#clients h2 {
+.teamtext h6 {
   color: gray;
 }
 
-#clients a {
-  color: #D3461C;
-}
 
-@media (max-width: 320px) {
-  h1.display-2 {
-    font-size: 50px !important;
+@media (max-width: 767px) {
+  #team .col-md-6 {
+    margin: .75em 0;
+    width: 100%;
   }
-  #about-page-main {
-    margin-top: 20%;
+  #team h3 {
+    font-size: 2.5em !important;
+    margin-top: 20px;
   }
-}
-@media (max-width: 375px) {
-  h1.display-2 {
-    font-size: 65px;
+  #aboutus-main .col-md-4 {
+    margin-top: 15%;
+    height: auto;
   }
-  #about-page-main {
-    margin-top: 20%;
-  }
-}
-@media (max-width: 425px) {
-  h1.display-2 {
-    font-size: 70px;
-  }
-  #about-page-main {
-    margin-top: 20%;
+
+  #aboutus-main .col-md-6 {
+    height: 100% !important;
+    margin-bottom: 3em !important;
   }
 }
