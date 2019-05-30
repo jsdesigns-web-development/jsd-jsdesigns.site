@@ -488,3 +488,28 @@ hr {
     margin-top: 10px;
   }
 }
+
+.floatingCall {
+  position:fixed;
+  width: 10%;
+	bottom:20px;
+  height: auto !important;
+	right:30px;
+  border-radius: 1em;
+	background-color:var(--red);
+	color:#FFF;
+  text-align:center;
+  font-size: 100%;
+  box-shadow: 1px 1px 2px #999;
+}
+
+@media(max-width:768px) {
+  .floatingCall {
+    width: 15% !important;
+  }
+}
+@media(max-width: 425px) {
+  .floatingCall {
+    font-size: 20% !important;
+  }
+}
