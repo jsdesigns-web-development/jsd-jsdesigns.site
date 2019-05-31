@@ -31,57 +31,31 @@ html, body {
   margin-bottom: 50px !important;
 }
 .client-cards {
-  width: 90% !important;
+  width: 100% !important;
   min-height: 150px !important;
 }
 
-.card {
+.col-md-4 {
   height: 100% !important;
 }
 
-.card-img {
-  text-align: center;
-  padding-top: 25px;
+.card {
+  height: 60% !important;
 }
 
-.card-img img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-}
-
-.card-text {
-  color: rgba(0,0,0,0.6) !important;
-}
-
-.card-footer {
-  background: none;
-  border: none;
+.card-body {
+  min-height: 130px !important;
   text-align: center;
 }
 
-.card-footer .client-name {
-  font-weight: bold;
+.card-img-top {
+  height: 250px;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 15px;
   color: var(--blue);
 }
-
-.card-footer .client-position {
-  color: rgba(0,0,0,0.6);
-  font-size: 15px;
-  font-style: italic;
-}
-
-.card-footer .client-company {
-  text-transform: uppercase;
-  color: var(--red);
-  font-style: normal;
-}
-
-.card-footer .client-company:hover {
-  text-decoration: none;
-
-}
-
 
 .floatingCall {
   position:fixed;
