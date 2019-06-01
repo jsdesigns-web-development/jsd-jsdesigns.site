@@ -102,11 +102,11 @@ html, body {
 }
 
 .floatingCall {
-  position:fixed;
+  position: fixed;
   width: 10%;
 	bottom:20px;
-  height: auto !important;
-	right:30px;
+  height: 5% !important;
+	right: 30px;
   border-radius: 1em;
 	background-color:var(--red);
 	color:#FFF;
@@ -115,14 +115,31 @@ html, body {
   box-shadow: 1px 1px 2px #999;
 }
 
+.floatingCall:hover {
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center !important;
+  color: var(--red);
+}
+
 @media(max-width:768px) {
   .floatingCall {
     width: 15% !important;
+    height:auto !important;
   }
 }
 @media(max-width: 425px) {
   .floatingCall {
     font-size: 20% !important;
+    height:auto !important;
+  }
+}
+@media(max-width:1024px) {
+  .floatingCall {
+    width: 15% !important;
+    height: 5% !important;
   }
 }
 
